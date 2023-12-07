@@ -1,0 +1,37 @@
+.item-list{
+    cursor: pointer;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.item-list:hover{
+    background: green;
+}
+
+.hero-wrap{
+    display: flex;
+}
+
+.hero-list{
+    width: 50%;
+    border-right: 1px solid black ;
+}
+
+.detailed-info{
+    width: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  
+    
+}
+
+.img{
+ height: 60px;
+ width: 60px;  
+ 
+}
