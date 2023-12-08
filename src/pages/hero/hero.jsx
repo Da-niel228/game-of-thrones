@@ -35,8 +35,8 @@ const Hero = () => {
                 className='item-list' 
                  onClick={() => getOneHero(item.id)} 
                 >
-                    
-                    {item.fullName}
+                    <div className='fullName'>{item.fullName}</div>
+                   
                     <div >
                         <img className='img' src= {item.imageUrl} alt="" />
                     </div>
@@ -48,6 +48,7 @@ const Hero = () => {
      <div className='detailed-info'>
      <h2>{data2.fullName}</h2>
        <h3>{data2.family}</h3>
+       <h3>{data2.title}</h3>
        <div>
         <img src={data2.imageUrl} alt={data2.name} />
        </div>

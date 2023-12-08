@@ -25,13 +25,18 @@
     position: fixed;
     top: 0;
     right: 0;
-    bottom: 0;
-  
-    
+    bottom: 0;    
 }
 
 .img{
  height: 60px;
  width: 60px;  
+ margin-left: 20px;
  
+}
+
+
+
+.fullName{
+    margin-top: 15px; 
 }
